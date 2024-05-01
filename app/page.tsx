@@ -4,7 +4,6 @@ export default function Home() {
   const InfoCard = (
     <div className="p-4 md:p-8 rounded bg-[#25252d] w-full max-h-[85%] overflow-hidden">
       <h1 className="text-3xl md:text-4xl mb-4">
-        ▲ Next.js + LangChain.js 🦜🔗
       </h1>
       <ul>
         <li className="text-l">
@@ -12,7 +11,6 @@ export default function Home() {
           <span className="ml-2">
             This template showcases a simple chatbot using{" "}
             <a href="https://js.langchain.com/" target="_blank">
-              LangChain.js
             </a>{" "}
             and the Vercel{" "}
             <a href="https://sdk.vercel.ai/docs" target="_blank">
